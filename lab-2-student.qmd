@@ -1,6 +1,6 @@
 ---
 title: "Lab 2: Exploring Rodents with `ggplot2`"
-author: "Your name here!"
+author: "Sophia Taylor"
 format: html
 editor: source
 embed-resources: true
