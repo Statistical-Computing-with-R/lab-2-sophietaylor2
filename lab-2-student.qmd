@@ -62,7 +62,8 @@ In the code chunk below, load in the packages necessary for your analysis. You s
 
 ```{r}
 #| label: setup
-
+library(tidyverse)
+library(here)
 ```
 
 # Data Context
@@ -101,7 +102,7 @@ represent:
 
 ```{r}
 #| label: load-data
-
+surveys <- read_csv(here("data", "surveys.csv"))
 ```
 
 **2. What are the dimensions (# of rows and columns) of these data?**
